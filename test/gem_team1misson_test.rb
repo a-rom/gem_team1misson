@@ -9,8 +9,11 @@ class GemTeam1missonTest < Minitest::Test
     assert false
   end
 
-#  def test_bmi
-#    assert_equal("",  @main.bmi())
-#  end
+  def test_bmi
+    assert_equal(false,  @main.bmi(0))
+    assert_equal(false,  @main.bmi(-1))
+    assert_equal(true ,  @main.bmi(100))
+    assert_equal(true ,  @main.bmi(1000))
+  end
 
 end
