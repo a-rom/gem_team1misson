@@ -3,7 +3,7 @@ require "gem_team1misson/version"
 module GemTeam1misson
 #!/usr/bin/ruby
 class Main
-def bmi()
+def bmi(n)
 puts'BMIを計算します'
 print'あなたの身長を入力してください'
 input_height=gets.chomp
@@ -21,5 +21,4 @@ end
 end
 
 end
-
-
+end
