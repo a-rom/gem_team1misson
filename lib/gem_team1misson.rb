@@ -2,7 +2,8 @@ require "gem_team1misson/version"
 
 module GemTeam1misson
 #!/usr/bin/ruby
-
+class Main
+def bmi()
 puts'BMIを計算します'
 print'あなたの身長を入力してください'
 input_height=gets.chomp
@@ -16,7 +17,8 @@ if bmi<18.5
   evaluation='STANDARD'
     elsif bmi>25
   evaluation='FAT'
-
+end
+end
 
 end
 
