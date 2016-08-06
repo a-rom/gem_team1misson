@@ -8,4 +8,9 @@ class GemTeam1missonTest < Minitest::Test
   def test_it_does_something_useful
     assert false
   end
+
+#  def test_bmi
+#    assert_equal("",  @main.bmi())
+#  end
+
 end
